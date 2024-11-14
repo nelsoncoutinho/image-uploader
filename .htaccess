@@ -1,0 +1,10 @@
+Options -Indexes
+
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Limitar tamanho de upload
+php_value upload_max_filesize 5M
+php_value post_max_size 5M 
